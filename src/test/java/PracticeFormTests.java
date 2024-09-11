@@ -28,13 +28,13 @@ public class PracticeFormTests {
         $("#firstName").setValue("Anna");
         $("#lastName").setValue("Jen");
 
-        //Почта
+        //Электронная почта
         $("#userEmail").setValue("anna@googl.com");
 
         //Пол
         $("#genterWrapper").$(byText("Female")).click();
 
-        //Номер телефона (10 цифр)
+        //Мобильный номер (10 цифр)
         $("#userNumber").setValue("9000000001");
 
         //День рождения
